@@ -84,3 +84,16 @@ header .shopping span{
 .active .container{
     transform: translateX(-200px);
 }
+.list .item{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 0 50px 50px coral;
+    letter-spacing: 1px;
+}
+.list .item img{
+    width: 90%;
+}
+.list .item .tittle{
+    font-weight: 600;
+}
