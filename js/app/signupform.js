@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"
-import {getAuth} from './firebase.js'
-const signupForm=document.querySelector('signup-form')
+import {auth} from './firebase.js'
+const signupForm=document.querySelector('#signup-form')
 
 signupForm.addEventListener('submit',async (e)=>
 {
@@ -8,8 +8,10 @@ signupForm.addEventListener('submit',async (e)=>
     const email=signupForm['signup-email'].value
     const password=signupForm['signup-password'].value
 
+    console.log(email,password)
+    
     try{
-        const userCredentials=createUserWithEmailAndPassword(getAuth,email,password)
+        const userCredentials=createUserWithEmailAndPassword(auth,email,password)
         console.log(userCredentials)
 
         //cierra el modal de bootstrap
@@ -21,19 +23,10 @@ signupForm.addEventListener('submit',async (e)=>
         console.log(error.message)
         console.log(error.code)
      
-        if(error.code==='auth/email-already-in-use')
-        {
-            alert('Email already in use')
-        }     
-        if(error.code==='auth/invalid-email')
-        {
-            alert('Invalid email')
-        }else if (error.code==='auth/weak-password')
-        {
-            alert('Password is too weak')
-        }else if(error.code){
-            alert('NANI?????')
-        }
+       if(error.code==='auth/invalid-email')
+       {
+        alert('Invalid email')
+       }
     }
     
 
