@@ -3,121 +3,121 @@
         {
             "id": 1,
             "name": "White t-Shirt F",
-            "image": "1.png",
+            "image": "./img/Cloth1.jpg",
             "price": 99
         },
         {
             "id": 2,
             "name": "White Tank-Top F",
-            "image": "2.png",
+            "image": "./img/Cloth2.jpg",
             "price": 15
         },
         {
             "id": 3,
             "name": "Black Tank-Top F",
-            "image": "3.png",
+            "image": "./img/Cloth3.jpg",
             "price": 70
         },
         {
             "id": 4,
             "name": "White Shirt F",
-            "image": "4.png",
+            "image": "./img/Cloth4.jpg",
             "price": 40
         },
         {
             "id": 5,
             "name": "Black T-Shirt F",
-            "image": "5.png",
+            "image": "./img/Cloth5.jpg",
             "price": 120000
         },
         {
             "id": 6,
             "name": "Green Sundress",
-            "image": "6.png",
+            "image": "./img/Cloth6.jpg",
             "price": 60
         },
         {
             "id": 7,
             "name": "Black Coat F",
-            "image": "7.png",
+            "image": "./img/Cloth7.jpg",
             "price": 15
         },
         {
             "id": 8,
             "name": "White Jacket F",
-            "image": "8.png",
+            "image": "./img/Cloth8.jpg",
             "price": 70
         },
         {
             "id": 9,
             "name": "Black Modern Top F",
-            "image": "9.png",
+            "image": "./img/Cloth9.jpg",
             "price": 90
         },
         {
             "id": 10,
             "name": "Black Turtleneck F",
-            "image": "10.png",
+            "image": "./img/Cloth10.jpg",
             "price": 20
         },
         {
             "id": 11,
             "name": "White t-Shirt M",
-            "image": "11.png",
+            "image": "./img/Cloth11.jpg",
             "price": 12
         },
         {
             "id": 12,
             "name": "Black T-Shirt M",
-            "image": "12.png",
+            "image": "./img/Cloth12.jpg",
             "price": 15
         },
         {
             "id": 13,
             "name": "Black T-Shirt Crown M",
-            "image": "13.png",
+            "image": "./img/Cloth13.jpg",
             "price": 25
         },
         {
             "id": 14,
             "name": "Blue Hoodie M",
-            "image": "14.png",
+            "image": "./img/Cloth14.jpg",
             "price": 50
         },
         {
             "id": 15,
             "name": "Grey T Shirt M",
-            "image": "15.png",
+            "image": "./img/Cloth15.jpg",
             "price": 30
         },
         {
             "id": 16,
             "name": "Red Hoodie M",
-            "image": "16.png",
+            "image": "./img/Cloth16.jpg",
             "price": 45
         },
         {
             "id": 17,
             "name": "Grey Sweater M",
-            "image": "17.png",
+            "image": "./img/Cloth17.jpg",
             "price": 30
         },
         {
             "id": 18,
             "name": "Grey Hoodie M",
-            "image": "18.png",
+            "image": "./img/Cloth18.jpg",
             "price": 50
         },
         {
             "id": 19,
             "name": "Brown Coat M",
-            "image": "19.png",
+            "image": "./img/Cloth19.jpg",
             "price": 100
         },
         {
             "id": 20,
             "name": "Black Hoodie M",
-            "image": "20.png",
+            "image": "./img/Cloth20.jpg",
             "price": 40
         }
     ]
