@@ -1,0 +1,124 @@
+{
+    "Productos":[
+        {
+            "id": 1,
+            "name": "White t-Shirt F",
+            "image": "1.png",
+            "price": 99
+        },
+        {
+            "id": 2,
+            "name": "White Tank-Top F",
+            "image": "2.png",
+            "price": 15
+        },
+        {
+            "id": 3,
+            "name": "Black Tank-Top F",
+            "image": "3.png",
+            "price": 70
+        },
+        {
+            "id": 4,
+            "name": "White Shirt F",
+            "image": "4.png",
+            "price": 40
+        },
+        {
+            "id": 5,
+            "name": "Black T-Shirt F",
+            "image": "5.png",
+            "price": 120000
+        },
+        {
+            "id": 6,
+            "name": "Green Sundress",
+            "image": "6.png",
+            "price": 60
+        },
+        {
+            "id": 7,
+            "name": "Black Coat F",
+            "image": "7.png",
+            "price": 15
+        },
+        {
+            "id": 8,
+            "name": "White Jacket F",
+            "image": "8.png",
+            "price": 70
+        },
+        {
+            "id": 9,
+            "name": "Black Modern Top F",
+            "image": "9.png",
+            "price": 90
+        },
+        {
+            "id": 10,
+            "name": "Black Turtleneck F",
+            "image": "10.png",
+            "price": 20
+        },
+        {
+            "id": 11,
+            "name": "White t-Shirt M",
+            "image": "11.png",
+            "price": 12
+        },
+        {
+            "id": 12,
+            "name": "Black T-Shirt M",
+            "image": "12.png",
+            "price": 15
+        },
+        {
+            "id": 13,
+            "name": "Black T-Shirt Crown M",
+            "image": "13.png",
+            "price": 25
+        },
+        {
+            "id": 14,
+            "name": "Blue Hoodie M",
+            "image": "14.png",
+            "price": 50
+        },
+        {
+            "id": 15,
+            "name": "Grey T Shirt M",
+            "image": "15.png",
+            "price": 30
+        },
+        {
+            "id": 16,
+            "name": "Red Hoodie M",
+            "image": "16.png",
+            "price": 45
+        },
+        {
+            "id": 17,
+            "name": "Grey Sweater M",
+            "image": "17.png",
+            "price": 30
+        },
+        {
+            "id": 18,
+            "name": "Grey Hoodie M",
+            "image": "18.png",
+            "price": 50
+        },
+        {
+            "id": 19,
+            "name": "Brown Coat M",
+            "image": "19.png",
+            "price": 100
+        },
+        {
+            "id": 20,
+            "name": "Black Hoodie M",
+            "image": "20.png",
+            "price": 40
+        }
+    ]
+    }
