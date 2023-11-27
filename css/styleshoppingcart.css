@@ -1,24 +1,12 @@
-body{
-    background-color: aliceblue;
-}
 
-.container{
-    width: 1000px;
-    margin: auto;
-    transition: 0.5;
-}
-header{
-    display: grid;
-    grid-template-columns: 1fr 50px;
-}
 header .shopping{
     position: relative;
     text-align: right;
 }
-header .shopping img{
+/*header .shopping img{
     width: 40px;
-}
-header .shopping span{
+}*/
+/*header .shopping span{
     background-color: red;
     border-radius: 50px;
     display: flex;
@@ -29,7 +17,7 @@ header .shopping span{
     top: -5px;
     left: 80%;
     padding: 3px 10px;
-}
+}*/
 .list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -88,7 +76,7 @@ header .shopping span{
     text-align: center;
     background-color: antiquewhite;
     padding: 20px;
-    box-shadow: 0 50px 50px coral;
+    /*box-shadow: 0 50px 50px coral;*/
     letter-spacing: 1px;
 }
 .list .item img{

@@ -17,10 +17,10 @@ let products = [
     {
         id: 1,
         name: 'PRODUCT NAME 1',
-        image: '1.png',
+        image: '/img/Cloth1.jpg',
         price: 120000
-    },
-    {
+    }
+    /*{
         id: 2,
         name: 'PRODUCT NAME 2',
         image: '2.png',
@@ -49,7 +49,7 @@ let products = [
         name: 'PRODUCT NAME 6',
         image: '6.png',
         price: 120000
-    }
+    }*/
 ];
 let listCards  = [];
 function initApp(){

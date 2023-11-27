@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/css/styleshoppingcart.css">
 
     <title>Productos - Tu Tienda Cute</title>
 </head>
@@ -33,7 +34,11 @@
         <div class="nav-icon">
             <a href="#"><i class='bx bx-search' ></i></a>
             <a href="#"><i class='bx bx-user' ></i></a>
-            <a href="#"><i class='bx bx-cart' ></i></a>
+            <!---<a href="#"><i class='bx bx-cart' ></i></a>--->
+            <div class="shopping">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAYlJREFUSEvNlk0yBEEQhb+xJxzBLJ3AFhfBhnADVlhxA8EGF8F2TmDJEQR7xJvo7shu9ZPVuqNlxGymsvLle/myZmZMFLOJcPkXwBuAPnU8j6mGZXwOnHXA5sDbGA3kgMV6Z2xgK/W2YT8K65i51MRTNfN74GBo1ilX3wH7FeAQcssrjV9SwJJbrIcMEVhuS26PXzsr9tcmNDKNLgtsV0wXHnog75mRNURzjIVTs+6zWjKp7isuABFZhgfYsi5dLXu3kdkLbE3W6tohe62W3Kymm/AwVrLcrQYUXtZRmb2Mlad91l4rWpIlWCdH5GXcx2TfVVO/ZC5hrFzLIPeSSeZaoaAvShjb99vhq7SPSoC7rD3gUT+UAgusdncOuPWj0E3uA3wIrAPXwGcAfRU4Bt6B21h3pcCXwElVTLu9Gyj8aP61XAGnIfBSYFtU67ISKPplnuJYc6632taWzDfVF5LxKACsc+UpdB6Uu5Sxim0Ca8Ai4a4t4AN4GWrGOSe7z/swdhdPJU4G/AOdWEYfsBj2lQAAAABJRU5ErkJggg=="/>
+                <span class="quantity">0</span>
+            </div>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
@@ -44,20 +49,53 @@
             <img src="/img/Cloth1.jpg" alt="Product Image">
         </div>
         <div class="product-info">
-            <h2>Nombre del Producto</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti asperiores, eveniet fugiat distinctio ullam? Error, magni. Tenetur doloremque ipsum aliquid soluta, suscipit libero ipsam rem, architecto temporibus unde perferendis?</p>
-            <p>Precio: $99.99</p>
-            <div class="product-quantity">
-                <button id="decrement">-</button>
-                <span id="quantity">1</span>
-                <button id="increment">+</button>
-            </div>
-            <div class="product-buttons">
-                <button class="buy-button">Comprar</button>
-                <button class="cart-button">Agregar al Carrito</button>
+            <div class="list">
+                      
             </div>
         </div>
+        <div class="card">
+            <h1>Card</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti asperiores, eveniet fugiat distinctio ullam? Error, magni. Tenetur doloremque ipsum aliquid soluta, suscipit libero ipsam rem, architecto temporibus unde perferendis?</p>
+            <div class="product-quantity">
+                <!--<button id="decrement">-</button>
+                <span id="quantity">1</span>
+                <button id="increment">+</button>-->
+            </div>
+            <section>
+                <div class="container">
+                    <header>
+                        <h1></h1>
+                        <!---<div class="shopping">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM5JREFUSEvtldEJwzAMRC+btJu0o3SUTtJR2k2STRIOLJCNYp9C8xf/GIx8T5g7a8LJazpZHxnADcCnNPQCsCjNqQATfxRRij8ViALw4tY1zyTICNCK3wHw7Fv2IaQHiMTt2WXIHqAnnoJEAEVchrSAjLgE8YDWiiMD+Bjw7hxZ2IvQGeZz1mYArF8d8VdyUomwA3Zi6+8AE7ZOjgKqe5HIBbieaHfMhOaIXNTmQRlcVsPvm196N0xMM0ejD50CYXrfALgfTqsCqmqyaU0DNl9vPxmfrU7NAAAAAElFTkSuQmCC"/>
+                            <span class="quantity">0</span>
+                        </div>--->
+                    </header>
+            
+                    <div class="list">
+                      
+                    </div>
+                </div>
+                <div class="card">
+                    <h1>Card</h1>
+                    <ul class="listCard">
+                    </ul>
+                    <div class="checkOut">
+                        <div class="total">0</div>
+                        <div class="closeShopping">Close</div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
     </section>
+    
 
     <section class="trending-section" id="trending">
         <div class="center-text">
@@ -197,6 +235,7 @@
             </div>
         </div>
     </section>
+    <script src="/js/products.js"></script>
 
     <script src="/js/java.js"></script> <!-- Agrega tu archivo de scripts para productos -->
 </body>
