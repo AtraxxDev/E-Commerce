@@ -1,5 +1,6 @@
 let openShopping = document.querySelector('.shopping');
 let closeShopping = document.querySelector('.closeShopping');
+let pay= document.querySelector('.pay');
 let list = document.querySelector('.list');
 let listCard = document.querySelector('.listCard');
 let body = document.querySelector('body');
@@ -11,6 +12,10 @@ openShopping.addEventListener('click', ()=>{
 })
 closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
+})
+
+pay.addEventListener('click',()=>{
+    body.classList.add('active');
 })
 
 let products = [
