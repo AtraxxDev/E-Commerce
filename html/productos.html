@@ -55,10 +55,7 @@
             </ul>
             
             <div class="checkOut">
-                <div id="paypal">Pay</div>
-                <script type="module" src="https://www.paypal.com/sdk/js?client-id=<AbcLV6-QNvpCO2QURXKLoAwKScvNyRq1StUunvtDnPG7KOOJVUmr564R06GWnhAvxYCkMkEZAf4txyP4>&currency=MXN&components=buttons">
-                </script>   
-              
+                            
                 <div class="total">0</div>
                 <div class="closeShopping">Close</div>
             </div>
@@ -83,12 +80,29 @@
                       
                     </div>
                 </div>
+                <div id="paypal-button-container"></div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=ARxBPewGtWPGPJMr1rccXbj0P86O3Tj1rvdyDmXAhe929EzY_BhENHXun2LkB6lXAuv3M0fflq0ACkRk"></script>
+                        <script>
+                            paypal.Buttons({
+                                createOrder:function(data,actions){
+                                    //Detalles de la transacción, cantidad, items
+                                    return actions.order.create({
+                                        purchase_units:[{
+                                            amount:{
+                                                value:'299.99'
+                                            }
+                                        }]
+                                    });
+                                }
+                            }).render('#paypal-button-container')
+                        </script>
                 <div class="card">
                     <h1>Card</h1>
                     <ul class="listCard">
                     </ul>
                     <div class="checkOut">
-                        <div class="pay">Pay</div>
+                        
+
                         <div class="total"></div>
                         <div class="closeShopping">Close</div>
                     </div>
@@ -119,7 +133,8 @@
         </div>
      </section>
     <script src="/js/products.js"></script>
-
+    <!--<script src="/js/app/paypal.js"></script>-->
+   <!--  <script src="https://www.paypal.com/sdk/js?client-id=AbcLV6-QNvpCO2QURXKLoAwKScvNyRq1StUunvtDnPG7KOOJVUmr564R06GWnhAvxYCkMkEZAf4txyP4&currency=MXN"></script>-->
     <script src="/js/java.js"></script> <!-- Agrega tu archivo de scripts para productos -->
 </body>
 </html>

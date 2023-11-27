@@ -14,9 +14,7 @@ closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
 
-pay.addEventListener('click',()=>{
-    body.classList.add('active');
-})
+
 
 let products = [
     {
