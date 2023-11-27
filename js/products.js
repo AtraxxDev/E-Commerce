@@ -22,7 +22,8 @@ let products = [
     {
         id: 1,
         name: 'PRODUCT NAME 1',
-        image: '/img/Cloth1.jpg',
+        image: 'Cloth1.jpg',
+        description:"Is a new Skirt",
         price: 120000
     }
     /*{
@@ -62,7 +63,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="img2/${value.image}">
+            <img src="/img2/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Agregar al carrito</button>`;
@@ -88,7 +89,7 @@ function reloadCard(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="image/${value.image}"/></div>
+                <div><img src="/img2/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
                 <div>

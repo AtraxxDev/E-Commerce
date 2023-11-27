@@ -254,7 +254,7 @@ header.sticky{
 .reviews img{
     width: 100px;
     height: auto;
-    border-radius: 50px;
+    border-radius: 70px;
     margin: 10px 0;
 }
 
@@ -443,6 +443,7 @@ header.sticky{
     .product-image img {
         max-width: 100%;
         height: auto;
+        
         margin-bottom: 20px;
     }
     

@@ -84,6 +84,10 @@ header .shopping{
     color: white;
 }
 
+.item{
+    text-align: center;
+}
+
 .active .card{
     left: calc(100% - 500px);
 }
@@ -92,7 +96,7 @@ header .shopping{
 }
 .list .item{
     text-align: center;
-    background-color: antiquewhite;
+    
     padding: 20px;
     /*box-shadow: 0 50px 50px coral;*/
     letter-spacing: 1px;
@@ -186,3 +190,5 @@ header .shopping{
 .listCard .count{
     margin: 0 10px;
 }
+
+
