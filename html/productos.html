@@ -80,8 +80,11 @@
                       
                     </div>
                 </div>
-                <div id="paypal-button-container"></div>
+                
+                <div id="paypal-button-container"class="paypal"></div>  
+                
                         <script src="https://www.paypal.com/sdk/js?client-id=ARxBPewGtWPGPJMr1rccXbj0P86O3Tj1rvdyDmXAhe929EzY_BhENHXun2LkB6lXAuv3M0fflq0ACkRk"></script>
+                        <!--<script>initPayPalButton();</script>-->
                         <script>
                             paypal.Buttons({
                                 createOrder:function(data,actions){
@@ -96,6 +99,8 @@
                                 }
                             }).render('#paypal-button-container')
                         </script>
+                
+                         
                 <div class="card">
                     <h1>Card</h1>
                     <ul class="listCard">

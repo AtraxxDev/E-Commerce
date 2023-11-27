@@ -6,6 +6,9 @@ let listCard = document.querySelector('.listCard');
 let body = document.querySelector('body');
 let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
+//let paypal= document.querySelector('.paypal');
+
+//import{createOrder} from './app/paypalbutton.js'
 
 openShopping.addEventListener('click', ()=>{
     body.classList.add('active');
@@ -13,6 +16,7 @@ openShopping.addEventListener('click', ()=>{
 closeShopping.addEventListener('click', ()=>{
     body.classList.remove('active');
 })
+
 
 
 
@@ -101,6 +105,7 @@ function reloadCard(){
     total.innerText = totalPrice.toLocaleString();
     quantity.innerText = count;
 }
+
 function changeQuantity(key, quantity){
     if(quantity == 0){
         delete listCards[key];
@@ -110,3 +115,8 @@ function changeQuantity(key, quantity){
     }
     reloadCard();
 }
+
+/*
+paypal.addEventListener('click',(e)=>{
+    createOrder(total);
+})*/
