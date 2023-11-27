@@ -9,7 +9,7 @@ export function showMg(message,type="success"){
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: type==="successs"?"green" :"red"
+          background: type==="success"?"green" :"red"
         },
         onClick: function(){} // Callback after click
       }).showToast();

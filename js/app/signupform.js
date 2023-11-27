@@ -21,28 +21,25 @@ signupForm.addEventListener('submit',async (e)=>
         modal.hide()
 
         //No funciona no sé porque Que mega pro
-       showMg("Welcome" + userCredentials.user.email)
+       showMg('Welcome' + userCredentials.user.email)
 
     }catch(error)
     {
-       // console.log(error.message)
-        //console.log(error.code)
-     
        if(error.code==='auth/email-already-in-use')
        {
-        showMessage("Email already in use", error)
+        showMg('Email already in use', 'error')
         //alert('Invalid email')
        }else if(error.code==='auth/invalid-email')
        {
-        showMessage("Invalid email",error)
-       // alert('Invalid email')
+        showMg('Invalid email','error')
+       //alert('Invalid email')
        }       
        else if(error.code === 'auth/weak-password')
        {
-        showMessage("Weak password",error)
+        showMg('Weak password','error')
         //alert('Password is too weak')
        }else if(error.code){
-        showMessage("Something is wrong I can feel it",error)
+        showMg(error.message,'error')
         //alert('Something is wrong I can feel it')
        }
     }
