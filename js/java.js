@@ -24,12 +24,5 @@ document.addEventListener('DOMContentLoaded', function () {
         quantityElement.textContent = currentQuantity;
     });
 
-    // Decrement quantity, but not below 1
-    decrementButton.addEventListener('click', function () {
-        let currentQuantity = parseInt(quantityElement.textContent);
-        if (currentQuantity > 1) {
-            currentQuantity--;
-            quantityElement.textContent = currentQuantity;
-        }
-    });
+
 });
