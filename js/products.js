@@ -23,37 +23,118 @@ let products = [
         image: 'Cloth1.jpg',
         description:"Is a new Skirt",
         price: 120000
-    }
-    /*{
+    },
+    {
         id: 2,
         name: 'PRODUCT NAME 2',
-        image: '2.png',
+        image: 'Cloth2.jpg',
         price: 120000
     },
     {
         id: 3,
         name: 'PRODUCT NAME 3',
-        image: '3.png',
+        image: 'Cloth3.jpg',
         price: 220000
     },
     {
         id: 4,
         name: 'PRODUCT NAME 4',
-        image: '4.png',
+        image: 'Cloth24.jpg',
         price: 123000
     },
     {
         id: 5,
         name: 'PRODUCT NAME 5',
-        image: '5.png',
+        image: 'Cloth15.jpg',
         price: 320000
     },
     {
         id: 6,
         name: 'PRODUCT NAME 6',
-        image: '6.png',
+        image: 'Cloth9.jpg',
         price: 120000
-    }*/
+    },
+    {
+        id: 7,
+        name: 'PRODUCT NAME 1',
+        image: 'Cloth10.jpg',
+        description:"Is a new Skirt",
+        price: 120000
+    },
+    {
+        id: 8,
+        name: 'PRODUCT NAME 2',
+        image: 'Cloth11.jpg',
+        price: 120000
+    },
+    {
+        id: 9,
+        name: 'PRODUCT NAME 3',
+        image: 'Cloth13.jpg',
+        price: 220000
+    },
+    {
+        id: 10,
+        name: 'PRODUCT NAME 4',
+        image: 'Cloth6.jpg',
+        price: 123000
+    },
+    {
+        id: 11,
+        name: 'PRODUCT NAME 5',
+        image: 'Cloth18.jpg',
+        price: 320000
+    },
+    {
+        id: 12,
+        name: 'PRODUCT NAME 6',
+        image: 'Cloth8.jpg',
+        price: 120000
+    },
+    {
+        id: 13,
+        name: 'PRODUCT NAME 2',
+        image: 'Cloth14.jpg',
+        price: 120000
+    },
+    {
+        id: 14,
+        name: 'PRODUCT NAME 3',
+        image: 'Cloth16.jpg',
+        price: 220000
+    },
+    {
+        id: 15,
+        name: 'PRODUCT NAME 4',
+        image: 'Cloth17.jpg',
+        price: 123000
+    },
+    {
+        id: 16,
+        name: 'PRODUCT NAME 5',
+        image: 'Cloth7.jpg',
+        price: 320000
+    },
+    {
+        id: 17,
+        name: 'PRODUCT NAME 6',
+        image: 'Cloth20.jpg',
+        price: 120000
+    },
+    {
+        id: 18,
+        name: 'PRODUCT NAME 1',
+        image: 'Cloth23.jpg',
+        description:"Is a new Skirt",
+        price: 120000
+    },
+    {
+        id: 19,
+        name: 'PRODUCT NAME 2',
+        image: 'Cloth4.jpg',
+        price: 120000
+    }
+    
 ];
 let listCards  = [];
 function initApp(){
@@ -61,7 +142,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="/img2/${value.image}">
+            <img src="/img/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Agregar al carrito</button>`;
@@ -87,7 +168,7 @@ function reloadCard(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="/img2/${value.image}"/></div>
+                <div><img src="/img/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
                 <div>
